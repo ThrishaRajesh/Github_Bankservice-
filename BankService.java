@@ -32,7 +32,7 @@ class BankAccount
 			acc.deposit(700);
 			acc.withdraw(100);
 			
-			System.out.println("Final Balance: "acc.balance");
+			System.out.println("Final Balance: "acc.balance);
 		}
 	}
 			
