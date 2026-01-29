@@ -10,7 +10,7 @@ class BankAccount
 		if(amount>0)
 		{
 			balance += amount;
-			System.out.println("Balance after deposit of 500:  "+balance);
+			System.out.println("Balance after deposit of 700:  "+balance);
 		}
 	}
 	void withdraw(double amount)
@@ -29,7 +29,7 @@ class BankAccount
 			BankAccount acc = new BankAccount(5000);
 			System.out.println("Initial balance: "+acc.balance);
 		
-			acc.deposit(500);
+			acc.deposit(700);
 			acc.withdraw(100);
 			
 			System.out.println("Final Balance: "acc.balance");
